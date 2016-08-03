@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>AmazonFinalProject2</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>4ezdGydeYkk6Jx+9n0x4xrlHm58=12/16/2015 10:28:10 PM12/16/2015 10:28:10 PM</TimeStamp>
+        <ID>
+          <String>V Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>vlmQCy1ydnPodR9dwV/ouegt9j8=12/16/2015 10:32:05 PM12/16/2015 10:30:04 PM</TimeStamp>
+        <ID>
+          <String>V Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L3fMCYztkzdRS8tKzn+OlQgGTto=12/16/2015 10:46:15 PM12/16/2015 10:32:04 PM</TimeStamp>
+        <ID>
+          <String>Amazon Product Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7QdcvL04W2a0ulv41hQKLsxWExk=12/16/2015 10:49:54 PM12/16/2015 10:32:04 PM</TimeStamp>
+        <ID>
+          <String>Amazon Author Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>f+KpvNPKYTbU+hhM9xdnJZLaHZk=12/16/2015 10:41:06 PM12/16/2015 10:32:04 PM</TimeStamp>
+        <ID>
+          <String>Amazon Date Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>2K3RPPojRVWNc9LiJ+dzshltFpA=12/16/2015 10:49:54 PM12/16/2015 10:32:04 PMoFXgAiK8pOQ8RFomFPX93OnePx0=12/16/2015 10:37:16 PM12/16/2015 10:32:04 PM</TimeStamp>
+        <ID>
+          <String>V Mart</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>WlQTw1kdsB7yPmVVJcJDpiP/CN8=12/16/2015 10:27:48 PM12/16/2015 10:27:48 PM</TimeStamp>
+      <ID>
+        <String>AmazonFinalProject2</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2015-12-19T15:47:01.666667Z</LastDeployed>
+</DeploymentSnapshot>
